@@ -7,7 +7,7 @@
 
 body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -67,4 +67,14 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer {
+    margin-top: 90px;
+}
+
+h1 {
+    margin-bottom: 50px;
+    color: rgb(75, 72, 36);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
